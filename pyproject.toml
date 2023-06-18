@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-onetimesecret"
+version = "0.1.0"
+description = ""
+authors = ["David-Roklem <roklem@mail.ru>"]
+readme = "README.md"
+packages = [{include = "fastapi-onetimesecret"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.97.0"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+pydantic = "^1.10.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
