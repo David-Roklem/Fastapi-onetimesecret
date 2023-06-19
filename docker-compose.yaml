@@ -1,0 +1,12 @@
+# Here the version of docker-compose is specified
+version: '3'
+
+# Then services are listed. It must be a main app, as well as other
+# additional services such as DB etc.
+services:
+  app: # Here goes the name of the service
+    build: # for various services there will be needed images from DH
+           # but in this case we're using the build with context
+      context: .  # context means the path to Dockerfile
+    ports:
+      - 7000:8000
