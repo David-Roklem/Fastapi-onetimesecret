@@ -40,3 +40,6 @@ Alternative way to run the project is to use Docker which will run it using guni
 docker-compose up
 ```
 The app will be available  on http://127.0.0.1:7000
+
+## Licence
+This project follows the MIT license. See the [LICENSE](LICENSE) for details.
